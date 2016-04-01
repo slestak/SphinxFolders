@@ -1,13 +1,12 @@
+# coding=utf-8
+from __future__ import unicode_literals
 import re
-
-__author__ = 'flanker'
-
 import os
 from sphinxfolders.nodes import FolderNode
 from docutils.parsers.rst.directives import unchanged_required
-
-
 from sphinx.util.compat import Directive
+
+__author__ = 'flanker'
 
 
 def regexp_check(argument):

@@ -1,8 +1,0 @@
-Put your data files in this folder.
-
-You can access them with the following code
-
-import os.path
-from sphinxfolders import __data_path__
-
-full_path = os.path.join(__data_path__, 'myfile.ext')
