@@ -1,11 +1,11 @@
 # coding=utf-8
 """Register all components of this extension"""
 
-from nodes import FolderNode
+from sphinxfolders.nodes import FolderNode
 from sphinxfolders.directives import FolderDirective
-from visitors import visit_folder_node, depart_folder_node
+from sphinxfolders.visitors import visit_folder_node, depart_folder_node
 
-__version__ = '1.0.2'
+__version__ = '1.0.3'
 
 
 def setup(app):
