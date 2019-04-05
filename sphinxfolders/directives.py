@@ -4,7 +4,7 @@ import re
 import os
 from sphinxfolders.nodes import FolderNode
 from docutils.parsers.rst.directives import unchanged_required
-from sphinx.util.compat import Directive
+from docutils.parsers.rst import Directive
 
 __author__ = 'flanker'
 
